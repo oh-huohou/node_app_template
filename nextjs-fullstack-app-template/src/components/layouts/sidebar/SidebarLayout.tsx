@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import styles from './SidebarLayout.module.css';
 
-export interface ISidebarLayout {
-}
+export interface ISidebarLayout {}
 
 const SidebarLayout: React.FC<ISidebarLayout> = () => {
   return (
@@ -11,7 +10,6 @@ const SidebarLayout: React.FC<ISidebarLayout> = () => {
       <Link href="/">
         Home
       </Link>
-
       <Link href="/about">
         About
       </Link>
